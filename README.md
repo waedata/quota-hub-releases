@@ -64,7 +64,7 @@ Quota Hub 是桌面客户端,**不是云端托管型 SaaS**。优先利用本机
 
 前往 [Releases](https://github.com/waedata/quota-hub-releases/releases) 获取最新版本:
 
-- macOS(Apple Silicon / Intel)
+- macOS(Apple Silicon)
 - Windows
 
 ## 🐛 反馈与建议

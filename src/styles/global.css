@@ -250,8 +250,8 @@ main {
 }
 
 .hero h1 .hero-q {
-  width: 0.98em;
-  height: 0.98em;
+  height: 0.84em;
+  width: auto;
   flex: none;
   filter: drop-shadow(0 6px 44px rgba(31, 140, 255, 0.28));
 }
@@ -681,8 +681,8 @@ main {
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px 36px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px 28px;
   align-content: start;
 }
 

@@ -22,7 +22,6 @@ body:
       label: 操作系统
       options:
         - macOS (Apple Silicon)
-        - macOS (Intel)
         - Windows
     validations:
       required: true
