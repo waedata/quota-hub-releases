@@ -235,17 +235,32 @@ main {
   margin: 0 auto;
 }
 
+/* 主标题:产品图标 Q + 匹配字重文字,还原 logo 排版 */
 .hero h1 {
-  margin: 0 0 22px;
-  font-family: "Copperplate", "Avenir Next", "PingFang SC", sans-serif;
-  font-size: clamp(72px, 13vw, 156px);
-  line-height: 0.9;
-  letter-spacing: 0.005em;
-  background: linear-gradient(180deg, #ffffff 0%, #c6d3d1 100%);
+  margin: 0 0 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.045em;
+  font-family: "Avenir Next", "Helvetica Neue", "SF Pro Display", "PingFang SC", sans-serif;
+  font-size: clamp(56px, 10.5vw, 132px);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.012em;
+}
+
+.hero h1 .hero-q {
+  width: 0.98em;
+  height: 0.98em;
+  flex: none;
+  filter: drop-shadow(0 6px 44px rgba(31, 140, 255, 0.28));
+}
+
+.hero h1 .hero-title-text {
+  background: linear-gradient(180deg, #ffffff 0%, #d7e2ef 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 0 80px rgba(85, 214, 190, 0.08);
 }
 
 .tagline {
