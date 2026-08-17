@@ -1,0 +1,32 @@
+name: 💡 功能建议
+description: 提出产品改进想法
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出改进建议,请说明你希望解决什么问题。
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: 你遇到的问题或场景
+      description: 在什么情况下觉得现在的功能不够用?
+      placeholder: 描述使用场景
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的建议
+      description: 希望怎么改、加什么功能?
+      placeholder: 描述你的想法
+    validations:
+      required: true
+
+  - type: textarea
+    id: alt
+    attributes:
+      label: 替代方案(可选)
+      description: 你考虑过或用过的其他解决方式

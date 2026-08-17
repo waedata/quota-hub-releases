@@ -3,10 +3,11 @@ import "../styles/global.css";
 
 const GITHUB_REPO = "https://github.com/waedata/quota-hub-releases";
 const DOWNLOAD_URL = `${GITHUB_REPO}/releases`;
+const ISSUES_URL = `${GITHUB_REPO}/issues`;
 
 const contacts = [
-  { name: "微信", img: "/contact/wechat.png", caption: "WeChat" },
-  { name: "飞书", img: "/contact/feishu.png", caption: "Feishu / Lark" }
+  { name: "微信", img: "/group/corehub-weichat-oneway.jpg", caption: "WeChat" },
+  { name: "飞书", img: "/group/corehub-feishu-oneway.jpg", caption: "Feishu / Lark" }
 ];
 
 const faqs = [
@@ -57,8 +58,8 @@ const faqs = [
         <div class="qr-row">
           {contacts.map((c) => (
             <div class="qr">
-              <div class="qr-frame is-placeholder">
-                <span>{c.name}二维码<br/>待替换</span>
+              <div class="qr-frame">
+                <img src={c.img} alt={`${c.name}二维码`} loading="lazy" />
               </div>
               <span class="qr-caption">{c.name} · {c.caption}</span>
             </div>
@@ -68,7 +69,9 @@ const faqs = [
           <li>最新版本优先下载</li>
           <li>订阅与激活说明</li>
           <li>使用问题答疑</li>
-          <li>新功能建议通道</li>
+          <li>
+            <a class="issue-link" href={ISSUES_URL} target="_blank" rel="noopener">新功能建议 / BUG 反馈 →</a>
+          </li>
         </ul>
       </section>
 
