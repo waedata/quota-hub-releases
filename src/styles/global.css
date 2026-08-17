@@ -148,6 +148,14 @@ main {
   transform: translateY(-1px);
 }
 
+.nav-gh svg,
+.button svg,
+.gh-link svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
 /* ============ Eyebrow / OS pills ============ */
 .eyebrow {
   display: inline-flex;
