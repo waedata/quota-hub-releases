@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+_shots/
+.opencode/
+public/product/bak/
+.DS_Store
