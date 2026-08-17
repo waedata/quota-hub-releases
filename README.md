@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/brand/quota-hub-mark.svg" width="88" alt="Quota Hub" />
+<img src="public/icons/quota-hub.png" width="96" alt="Quota Hub" />
 
 # Quota Hub
 
@@ -82,6 +82,8 @@ Quota Hub 是桌面客户端,**不是云端托管型 SaaS**。优先利用本机
 | <img src="public/group/corehub-weichat-oneway.jpg" width="200" alt="微信二维码" /> | <img src="public/group/corehub-feishu-oneway.jpg" width="200" alt="飞书二维码" /> |
 
 扫码获取最新版本、订阅说明与使用支持。
+
+邮箱:[285564292@qq.com](mailto:285564292@qq.com)
 
 ---
 

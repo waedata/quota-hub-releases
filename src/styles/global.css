@@ -672,6 +672,12 @@ main {
   color: var(--text);
 }
 
+.footer-links a.gh-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
 .footer-copy {
   display: flex;
   flex-direction: column;
@@ -679,6 +685,15 @@ main {
   color: var(--dim);
   font-size: 13px;
   text-align: right;
+}
+
+.footer-copy a {
+  color: var(--dim);
+  transition: color 0.3s;
+}
+
+.footer-copy a:hover {
+  color: var(--gold);
 }
 
 /* ============ Join page ============ */
@@ -867,6 +882,15 @@ main {
   border-radius: 50%;
   background: var(--cyan);
   box-shadow: 0 0 10px rgba(85, 214, 190, 0.6);
+}
+
+.issue-link {
+  color: var(--gold);
+  transition: color 0.3s, filter 0.3s;
+}
+
+.issue-link:hover {
+  color: var(--text);
 }
 
 .faq {
