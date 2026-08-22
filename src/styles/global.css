@@ -330,6 +330,33 @@ main {
   margin-bottom: 64px;
 }
 
+/* ============ Download hint (GitHub 不可达时的备选说明) ============ */
+.download-hint {
+  flex-basis: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: var(--dim);
+}
+
+.download-hint a {
+  color: var(--cyan);
+  border-bottom: 1px solid rgba(85, 214, 190, 0.35);
+  transition: border-color 0.3s, filter 0.3s;
+}
+
+.download-hint a:hover {
+  border-bottom-color: var(--cyan);
+  filter: brightness(1.15);
+}
+
+.download-band .download-hint {
+  margin-top: 18px;
+}
+
 /* ============ Hero stage (product image with depth) ============ */
 .hero-stage {
   position: relative;
@@ -414,6 +441,67 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* ============ Platforms (支持平台轻量区块) ============ */
+.platforms {
+  width: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding: 0 clamp(18px, 4vw, 32px) 96px;
+  text-align: center;
+}
+
+.platforms .section-label {
+  margin-bottom: 28px;
+}
+
+.platform-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.platform-pill {
+  padding: 9px 18px;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+}
+
+.platform-pill:hover {
+  border-color: var(--line-strong);
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-2px);
+}
+
+.platform-pill.is-more {
+  color: var(--muted);
+  border-style: dashed;
+}
+
+.platform-note {
+  margin: 24px 0 0;
+  color: var(--dim);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.platform-note a {
+  color: var(--cyan);
+  border-bottom: 1px solid rgba(85, 214, 190, 0.35);
+  transition: border-color 0.3s, filter 0.3s;
+}
+
+.platform-note a:hover {
+  border-bottom-color: var(--cyan);
+  filter: brightness(1.15);
 }
 
 .section-label {
@@ -700,6 +788,8 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 7px;
+  white-space: nowrap;
+  grid-column: span 2;
 }
 
 .footer-copy {
@@ -1044,6 +1134,16 @@ main {
   }
   .features-section {
     padding: 64px 18px 72px;
+  }
+  .platforms {
+    padding-bottom: 72px;
+  }
+  .platform-pills {
+    gap: 10px;
+  }
+  .platform-pill {
+    padding: 8px 14px;
+    font-size: 12px;
   }
   .section-label {
     margin-bottom: 48px;

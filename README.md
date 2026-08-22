@@ -6,7 +6,7 @@
 
 **看 token,一个窗口就够。**
 
-一站式 Token 额度与订阅监控桌面控制台 · macOS / Windows
+AI 额度订阅统一管理 · macOS / Windows
 
 [![Release](https://img.shields.io/github/v/release/waedata/quota-hub-releases?style=flat-square&label=最新版本)](https://github.com/waedata/quota-hub-releases/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-55d6be?style=flat-square)](#-下载)
@@ -89,6 +89,6 @@ Quota Hub 是桌面客户端,**不是云端托管型 SaaS**。优先利用本机
 
 <div align="center">
 
-**Quota Hub** · token 额度与订阅监控桌面控制台
+**Quota Hub** · AI 额度订阅统一管理
 
 </div>
